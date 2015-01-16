@@ -9,7 +9,7 @@ import json
 	
 def NoOfClicksMadeInLastFewMins(bitlyURL, timeInMins)
 	query_params = {'access_token': 'API_KEY',
-                'link': bitlyURL,'unit' : 'minute', 'units' : timeInMins} 
+        		 'link': bitlyURL,'unit' : 'minute', 'units' : timeInMins} 
 
 
 	#configured to make call to bitly Link API
