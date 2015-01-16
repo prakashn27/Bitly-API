@@ -6,7 +6,7 @@ import json
 	
 def NoOfClicks(bitlyURL)
 	query_params = {'access_token': 'YOUR OWN ACCESS_TOKEN',
-                'link': bitlyURL} 
+        		 'link': bitlyURL} 
 
 	#configured to make call to bitly Link API
 	endpoint = 'https://api-ssl.bitly.com/v3/link/clicks'
